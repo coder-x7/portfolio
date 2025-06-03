@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* google font */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+  font-style: normal;
+  color: rgba(245, 246, 247, 0.954);
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.945);
+
+}
+
+.img-wrapper {
+  position: relative;
+  left: 325px;
+  display: inline-block;
+  width: 550px;
+  height: 550px;
+  border-radius: 200px;
+  background-color: transparent;
+  top: 50px;
+  z-index: 2;
+  box-shadow: inset 5px 5px 150px 150px rgba(26, 25, 25, 0.614);
+  /* pointer-events: none; */
+}
+
+.img-wrapper:hover {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+  /* pointer-events: none; */
+}
+
+.hero img {
+  display: inline-block;
+  width: 550px;
+  height: auto;
+  border-radius: 200px;
+  position: relative;
+  top: 50px;
+  left: 880px;
+  z-index: 0;
+  box-shadow: 5px 5px 100px 5px rgba(199, 30, 30, 0.84);
+}
+
+/* img:hover{
+  transition: ease-out .5s;
+  transform: scale(1.1);
+  cursor: pointer;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+span {
+  color: rgba(224, 28, 28, 0.852);
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  list-style-type: none;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+
+.navbar ul li a:hover {
+  color: rgba(224, 28, 28, 0.852);
+  transition: .4s;
+}
+
+.btn {
+  background-color: rgba(224, 28, 28, 0.852);
+  border: 2px black transparent;
+  border-radius: 30px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: transform .4s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid rgb(110, 16, 16);
+  transition: ease-out .5s;
+  transform: scale(1.2);
+}
+
+.content {
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-40%);
+}
+
+.content h1 {
+  letter-spacing: 2px;
+  font-size: 70px;
+}
+
+.content h3 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.content h4 {
+  font-size: 20px;
+  margin-left: 5px;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+}
+
+.input {
+  margin-left: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.input form {
+  width: 300px;
+  max-width: 100%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.input form input:first-child {
+  display: inline-block;
+  padding: 14px 130px 14px 15px;
+  outline: none;
+  border: 2px solid rgb(232, 33, 33);
+  border-radius: 30px;
+  color: black;
+}
+.input form input:last-child{
+  position: absolute;
+  display: inline-block;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+border-radius: 30px;
+background-color: rgba(224, 28, 28, 0.852) ;
+top: 6px;
+right: -25px;
+
+}
+
+/* ABOUT SECTION */
+
+.about{
+  height: 725px;
+  width: 100%;
+  background-color: #191919;
+  text-transform: capitalize;
+  padding: 100px 0px;
+}
+.main{
+  width: 1130px;
+  /* background-color: aqua; */
+  max-width: 95%;
+  margin: 52px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text{
+  width: 550px;
+}
+.about img{
+  border-radius: 100%;
+  background-color: rgba(46, 41, 41, 0.486);
+  width: 430px;
+  height: auto;
+  box-shadow: 5px 5px 100px 5px rgba(199, 30, 30, 0.84);
+  /* border: 2px solid red; */
+}
+.about .main .about-text h2{
+  color: rgb(247, 244, 244);
+  font-size: 70px;
+  margin-bottom: 20px;
+  
+}
+.about .main .about-text h5{
+ color: rgb(223, 219, 219);
+ font-size: 25px;
+ letter-spacing: 2px;
+ margin-bottom: 20px;
+}
+.about .main .about-text p{
+ color: rgb(194, 194, 194);
+ text-transform: none;
+ letter-spacing: 2px;
+ line-height: 28px;
+ font-size: 18px;
+ margin-bottom: 45px;
+}
+button{
+  background-color:rgba(224, 28, 28, 0.852) ;
+  padding: 13px 30px;
+  text-decoration:none;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: .4s;
+}
+button:hover{
+background-color: transparent;
+  border: 1px solid rgb(110, 16, 16);
+  cursor: pointer;
+}
