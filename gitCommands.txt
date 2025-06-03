@@ -1,7 +1,7 @@
 cd "C:\Users\sadeeq\OneDrive\Desktop\portfolio"
 git init
 git remote add origin https://github.com/coder-x7/portfolio.git
-git add .
+git add .       //add all the files
 git commit -m "Replace old code with new portfolio"
 git branch -M main
 git push -u origin main --force
